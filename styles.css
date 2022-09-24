@@ -69,7 +69,7 @@ input {
     background-color: white;
     color: black;
     text-shadow: 0 0 5px white, 0 0 1px white;
-    font-size: large;
+    font-size:medium;
     text-align: center;
     display: block;
 }
