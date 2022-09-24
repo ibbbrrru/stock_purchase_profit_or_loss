@@ -9,8 +9,10 @@ function calculateProfitAndLoss(initial, quantity, current){
     if(initial>current){
         var loss = (initial - current)*quantity;
         var lossPercentage = (loss/initial)*100;
-        // loss logic here
+        console.log(`the loss is ${loss}and % is ${lossPercentage}`)
+        // loss logic 
     }else if(current>initial){
+
         // profit logic here
     }else{
         // the rest of logic
