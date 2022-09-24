@@ -7,14 +7,16 @@ var outputBox = document.querySelector("#output-box");
 
 function calculateProfitAndLoss(initial, quantity, current){
     if(initial>current){
-        var loss = (initial - current)*quantity;
+        var loss = (initial-current)*quantity;
         var lossPercentage = (loss/initial)*100;
-        console.log(`the loss is ${loss}and % is ${lossPercentage}`)
+        console.log(`the loss is ${loss} and the percentage is ${lossPercentage}%`)
         // loss logic 
     }else if(current>initial){
-
-        // profit logic here
+        var profit = {current-initial}*quantity;
+        var profitPercentage = {profit/initial}*100;
+        // profit logic
     }else{
         // the rest of logic
     }
 }
+calculateProfitAndLoss(100,10,10)
