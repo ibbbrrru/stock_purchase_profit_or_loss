@@ -26,7 +26,7 @@ function calculateProfitAndLoss(initial, quantity, current){
     }else if(current>initial){
         var profit = (current-initial)*quantity;
         var profitPercentage = (profit/initial)*100;
-        showOutput(`<div style="color:green">Yay🥳, Its a profit🤑.<br> The profit is ${profit} and the profit percentage is ${profitPercentage}%</div>`);
+        showOutput(`<div style="color:#22c55e">Yay🥳, Its a profit🎉.<br> The profit is ${profit} and the profit percentage is ${profitPercentage} %</div>`);
         // profit logic
     }else{
         showOutput(`<div style="color:orange">Neither a profit🤷‍♂️ nor a loss🤷<br>(NO PAIN NO GAIN 🤜🌓🤛 NO GAIN NO PAIN🤜🌓🤛)</div>`);
